@@ -1,0 +1,21 @@
+.clientWrapper {
+    flex: 0 0 auto;
+    height: 150px;
+    width: auto;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.client {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: grayscale(100%);
+}
+
+@media screen and (max-width: 600px) {
+    .clientWrapper {
+        height: 100px;
+    }
+
+}

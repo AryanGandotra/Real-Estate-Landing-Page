@@ -1,0 +1,134 @@
+.landingContent {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    gap: 10rem;
+}
+
+.landingContentLeft {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.landingContentLeftHeading {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.landingContentLeftContent {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(90, 90, 90);
+}
+
+.landingForm {
+    max-width: 500px;
+    width: 90%;
+}
+
+.landingContentLeftReview {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    margin-top: 1rem;
+}
+
+.landingContentLeftReviewContent {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.landingContentLeftReviewContentItems {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.landingContentLeftReviewContentItemsHeading {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.landingContentLeftReviewContentItemsHeading span {
+    color: #1890ff;
+}
+
+.landingContentLeftReviewContentItemsContent {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+}
+
+
+.landingContentRight {
+    width: 60%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 1350px) {
+    .landingContent {
+        width: 95%;
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .landingContentLeft {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .landingContentRight {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width: 970px) {
+    .landingContent {
+        width: 85%;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .landingContentLeftHeading {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .landingContentLeftReviewContentItemsHeading {
+        font-size: 20px;
+    }
+
+    .landingContentLeftReviewContent {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .landingContentLeftReviewContentItems {
+        width: 100%;
+        gap: 2rem;
+        flex-direction: row;
+    }
+}

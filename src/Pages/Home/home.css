@@ -1,0 +1,178 @@
+.gradient {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    background-color: white;
+    z-index: 100000;
+    border-radius: 50%;
+    filter: blur(150px);
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-color: #14110F;
+    padding: 0 10rem;
+}
+
+
+.landing-content {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 970px) {
+    .landing {
+        padding: 0 1rem;
+    }
+
+    .landing-content {
+        width: 95%;
+    }
+}
+
+
+.clients::-webkit-scrollbar {
+    display: none;
+}
+
+.clients {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 10px;
+    margin-top: 4rem;
+}
+
+.residenceContainer {
+    width: 95%;
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 10px;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1350px) {
+    .residenceContainer {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .residenceContainer {
+        gap: 1rem;
+    }
+}
+
+.residenceContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.value {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10rem;
+    padding: 4rem 2rem;
+}
+
+
+.value-img {
+    width: 40%;
+}
+
+.value-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.value-content>h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #D49520;
+}
+
+.value-content>h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(15, 15, 106);
+}
+
+.value-content>p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(140, 140, 140);
+}
+
+.toggle-divs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .value {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .value-img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .value {
+        padding: 2rem 1rem;
+    }
+
+    .value-img {
+        width: 50%;
+    }
+
+
+    .value-content {
+        width: 80%;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .value-img {
+        width: 70%;
+    }
+
+    .value-content>h1 {
+        font-size: 1.5rem;
+    }
+
+    .clients {
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+
+}
