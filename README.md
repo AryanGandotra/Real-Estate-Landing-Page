@@ -33,12 +33,19 @@ Make sure you have the following installed:
 ### Folder Structure
 
 - **src/**
+  
   - **components/**: Contains all React components used in the website
+    
     - *sampleComponent/*
+      
       - sampleComponent.jsx
+        
       - sampleComponent.css: Contains styles for the component
+        
     - *(other components)*
+      
   - **assets/**: Contains all images used in the website
+    
   - **Pages/**: Contains all pages in the website
 
 - **public/**
@@ -49,8 +56,14 @@ Make sure you have the following installed:
 We welcome contributions from the community! If you want to contribute to Homez, please follow the guidelines below.
 
 -Fork the repository on GitHub.
--Clone your forked repository to your local machine:
+
+-Clone your forked repository to your local machine:https://github.com/AryanGandotra/Real-Estate-Landing-Page.git
+
 -Create a new branch for your feature/bugfix: git checkout -b feature/your-feature-name
+
 -Make your changes and commit them with a descriptive commit message: git commit -m "Add your feature or fix bug"
+
 -Push your changes to your forked repository:git push origin feature/your-feature-name
+
 -Open a pull request (PR) on the original repository. Be sure to include a detailed description of your changes and any related issues.
+
