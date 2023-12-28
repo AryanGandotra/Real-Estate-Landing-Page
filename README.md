@@ -32,15 +32,16 @@ Make sure you have the following installed:
 
 ### Folder Structure
 
-├── src/
-│ ├── components/ {Contains all the React components used in the website}
-│ │ ├── sampleComponent/
-│ │ │ ├── sampleComponent.jsx
-│ │ │ └── sampleComponent.css {Contains all the styles of that component}
-│ │ ├── ... {Other components}
-│ ├── assets/ {Contains all the images used in the website}
-│ ├── Pages/ {Contains all the pages in the website}
-├── public/
+- **src/**
+  - **components/**: Contains all React components used in the website
+    - *sampleComponent/*
+      - sampleComponent.jsx
+      - sampleComponent.css: Contains styles for the component
+    - *(other components)*
+  - **assets/**: Contains all images used in the website
+  - **Pages/**: Contains all pages in the website
+
+- **public/**
 
 
 
