@@ -4,8 +4,8 @@
 
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
+- [Demo](#Demo)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Contributions](#contributions)
 
@@ -16,6 +16,11 @@
 Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (and npm)
+
+### Demo
+![](https://github.com/AryanGandotra/Real-Estate-Landing-Page/blob/main/Demo/Demo1.png)
+![](https://github.com/AryanGandotra/Real-Estate-Landing-Page/blob/main/Demo/Demo2.png)
+![](https://github.com/AryanGandotra/Real-Estate-Landing-Page/blob/main/Demo/Demo3.png)
 
 ### Installation
 
