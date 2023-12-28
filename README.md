@@ -34,11 +34,17 @@ Make sure you have the following installed:
 
 src/            
   |- components/ {Contains all the react components used in the website}
+  
   |    |-- sampleComponent  
+  
   |        |-- sampleComponent.jsx 
+  
   |        |-- sampleComponent.css {Contains all the styles of that component }
+  
   |- assets/  {Contains all the images used in the website}
+  
   |- Pages/  {Contains all the pages in the website}
+  
 public/        
 
 # Contributions
